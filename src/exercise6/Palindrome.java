@@ -10,7 +10,7 @@ public class Palindrome {
         int a = number;
         int b = a;
         int count = 1;
-        assert number > 0 : "Fehler";
+        assert number > 0 : "Fehler ";
 
         while ((number / 10) != 0) {
           count++;
