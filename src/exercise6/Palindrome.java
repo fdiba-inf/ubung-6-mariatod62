@@ -27,9 +27,9 @@ public class Palindrome {
           c = c + array[j];
         }
         if (c == b) {
-          System.out.println("Palindrome: richtig");
+          System.out.println("Palindrome: true");
         } else {
-          System.out.println("Palindrome: falsch");
+          System.out.println("Palindrome: false");
         }
     }
 }
